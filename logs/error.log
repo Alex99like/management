@@ -1,0 +1,70 @@
+{"level":30,"time":1668024900797,"pid":5708,"hostname":"Sky","msg":"AppController {/}:"}
+{"level":30,"time":1668024900802,"pid":5708,"hostname":"Sky","msg":"Mapped {/, GET} route"}
+{"level":30,"time":1668024900802,"pid":5708,"hostname":"Sky","msg":"UsersController {/users}:"}
+{"level":30,"time":1668024900803,"pid":5708,"hostname":"Sky","msg":"Mapped {/users, GET} route"}
+{"level":30,"time":1668024900804,"pid":5708,"hostname":"Sky","msg":"Mapped {/users/:id, GET} route"}
+{"level":30,"time":1668024900805,"pid":5708,"hostname":"Sky","msg":"Mapped {/users/:id, DELETE} route"}
+{"level":30,"time":1668024900807,"pid":5708,"hostname":"Sky","msg":"Mapped {/users/:id, PUT} route"}
+{"level":30,"time":1668024900807,"pid":5708,"hostname":"Sky","msg":"AuthController {/}:"}
+{"level":30,"time":1668024900808,"pid":5708,"hostname":"Sky","msg":"Mapped {/signin, POST} route"}
+{"level":30,"time":1668024900809,"pid":5708,"hostname":"Sky","msg":"Mapped {/signup, POST} route"}
+{"level":30,"time":1668024900810,"pid":5708,"hostname":"Sky","msg":"BoardsController {/boards}:"}
+{"level":30,"time":1668024900811,"pid":5708,"hostname":"Sky","msg":"Mapped {/boards, GET} route"}
+{"level":30,"time":1668024900813,"pid":5708,"hostname":"Sky","msg":"Mapped {/boards/:id, GET} route"}
+{"level":30,"time":1668024900814,"pid":5708,"hostname":"Sky","msg":"Mapped {/boards, POST} route"}
+{"level":30,"time":1668024900815,"pid":5708,"hostname":"Sky","msg":"Mapped {/boards/:id, DELETE} route"}
+{"level":30,"time":1668024900816,"pid":5708,"hostname":"Sky","msg":"Mapped {/boards/:id, PUT} route"}
+{"level":30,"time":1668024900816,"pid":5708,"hostname":"Sky","msg":"ColumnsController {/boards/:boardId/columns}:"}
+{"level":30,"time":1668024900816,"pid":5708,"hostname":"Sky","msg":"Mapped {/boards/:boardId/columns, GET} route"}
+{"level":30,"time":1668024900817,"pid":5708,"hostname":"Sky","msg":"Mapped {/boards/:boardId/columns/:columnId, GET} route"}
+{"level":30,"time":1668024900818,"pid":5708,"hostname":"Sky","msg":"Mapped {/boards/:boardId/columns, POST} route"}
+{"level":30,"time":1668024900818,"pid":5708,"hostname":"Sky","msg":"Mapped {/boards/:boardId/columns/:columnId, DELETE} route"}
+{"level":30,"time":1668024900819,"pid":5708,"hostname":"Sky","msg":"Mapped {/boards/:boardId/columns/:columnId, PUT} route"}
+{"level":30,"time":1668024900819,"pid":5708,"hostname":"Sky","msg":"TasksController {/boards/:boardId/columns/:columnId/tasks}:"}
+{"level":30,"time":1668024900820,"pid":5708,"hostname":"Sky","msg":"Mapped {/boards/:boardId/columns/:columnId/tasks, GET} route"}
+{"level":30,"time":1668024900821,"pid":5708,"hostname":"Sky","msg":"Mapped {/boards/:boardId/columns/:columnId/tasks/:taskId, GET} route"}
+{"level":30,"time":1668024900822,"pid":5708,"hostname":"Sky","msg":"Mapped {/boards/:boardId/columns/:columnId/tasks, POST} route"}
+{"level":30,"time":1668024900822,"pid":5708,"hostname":"Sky","msg":"Mapped {/boards/:boardId/columns/:columnId/tasks/:taskId, DELETE} route"}
+{"level":30,"time":1668024900823,"pid":5708,"hostname":"Sky","msg":"Mapped {/boards/:boardId/columns/:columnId/tasks/:taskId, PUT} route"}
+{"level":30,"time":1668024900823,"pid":5708,"hostname":"Sky","msg":"FileController {/}:"}
+{"level":30,"time":1668024900825,"pid":5708,"hostname":"Sky","msg":"Mapped {/file, POST} route"}
+{"level":30,"time":1668024900825,"pid":5708,"hostname":"Sky","msg":"Mapped {/file/:taskid/:filename, GET} route"}
+{"level":30,"time":1668024900825,"pid":5708,"hostname":"Sky","msg":"LogsController {/logs}:"}
+{"level":30,"time":1668024900827,"pid":5708,"hostname":"Sky","msg":"Mapped {/logs/error, GET} route"}
+{"level":30,"time":1668024900828,"pid":5708,"hostname":"Sky","msg":"Mapped {/logs/info, GET} route"}
+{"level":30,"time":1668024900832,"pid":5708,"hostname":"Sky","msg":"Nest application successfully started"}
+{"level":30,"time":1668031657977,"pid":13424,"hostname":"Sky","msg":"AppController {/}:"}
+{"level":30,"time":1668031657984,"pid":13424,"hostname":"Sky","msg":"Mapped {/, GET} route"}
+{"level":30,"time":1668031657985,"pid":13424,"hostname":"Sky","msg":"UsersController {/users}:"}
+{"level":30,"time":1668031657986,"pid":13424,"hostname":"Sky","msg":"Mapped {/users, GET} route"}
+{"level":30,"time":1668031657988,"pid":13424,"hostname":"Sky","msg":"Mapped {/users/:id, GET} route"}
+{"level":30,"time":1668031657990,"pid":13424,"hostname":"Sky","msg":"Mapped {/users/:id, DELETE} route"}
+{"level":30,"time":1668031658002,"pid":13424,"hostname":"Sky","msg":"Mapped {/users/:id, PUT} route"}
+{"level":30,"time":1668031658002,"pid":13424,"hostname":"Sky","msg":"AuthController {/}:"}
+{"level":30,"time":1668031658004,"pid":13424,"hostname":"Sky","msg":"Mapped {/signin, POST} route"}
+{"level":30,"time":1668031658006,"pid":13424,"hostname":"Sky","msg":"Mapped {/signup, POST} route"}
+{"level":30,"time":1668031658006,"pid":13424,"hostname":"Sky","msg":"BoardsController {/boards}:"}
+{"level":30,"time":1668031658015,"pid":13424,"hostname":"Sky","msg":"Mapped {/boards, GET} route"}
+{"level":30,"time":1668031658016,"pid":13424,"hostname":"Sky","msg":"Mapped {/boards/:id, GET} route"}
+{"level":30,"time":1668031658017,"pid":13424,"hostname":"Sky","msg":"Mapped {/boards, POST} route"}
+{"level":30,"time":1668031658018,"pid":13424,"hostname":"Sky","msg":"Mapped {/boards/:id, DELETE} route"}
+{"level":30,"time":1668031658019,"pid":13424,"hostname":"Sky","msg":"Mapped {/boards/:id, PUT} route"}
+{"level":30,"time":1668031658019,"pid":13424,"hostname":"Sky","msg":"ColumnsController {/boards/:boardId/columns}:"}
+{"level":30,"time":1668031658021,"pid":13424,"hostname":"Sky","msg":"Mapped {/boards/:boardId/columns, GET} route"}
+{"level":30,"time":1668031658022,"pid":13424,"hostname":"Sky","msg":"Mapped {/boards/:boardId/columns/:columnId, GET} route"}
+{"level":30,"time":1668031658023,"pid":13424,"hostname":"Sky","msg":"Mapped {/boards/:boardId/columns, POST} route"}
+{"level":30,"time":1668031658023,"pid":13424,"hostname":"Sky","msg":"Mapped {/boards/:boardId/columns/:columnId, DELETE} route"}
+{"level":30,"time":1668031658039,"pid":13424,"hostname":"Sky","msg":"Mapped {/boards/:boardId/columns/:columnId, PUT} route"}
+{"level":30,"time":1668031658039,"pid":13424,"hostname":"Sky","msg":"TasksController {/boards/:boardId/columns/:columnId/tasks}:"}
+{"level":30,"time":1668031658047,"pid":13424,"hostname":"Sky","msg":"Mapped {/boards/:boardId/columns/:columnId/tasks, GET} route"}
+{"level":30,"time":1668031658048,"pid":13424,"hostname":"Sky","msg":"Mapped {/boards/:boardId/columns/:columnId/tasks/:taskId, GET} route"}
+{"level":30,"time":1668031658048,"pid":13424,"hostname":"Sky","msg":"Mapped {/boards/:boardId/columns/:columnId/tasks, POST} route"}
+{"level":30,"time":1668031658049,"pid":13424,"hostname":"Sky","msg":"Mapped {/boards/:boardId/columns/:columnId/tasks/:taskId, DELETE} route"}
+{"level":30,"time":1668031658050,"pid":13424,"hostname":"Sky","msg":"Mapped {/boards/:boardId/columns/:columnId/tasks/:taskId, PUT} route"}
+{"level":30,"time":1668031658050,"pid":13424,"hostname":"Sky","msg":"FileController {/}:"}
+{"level":30,"time":1668031658052,"pid":13424,"hostname":"Sky","msg":"Mapped {/file, POST} route"}
+{"level":30,"time":1668031658053,"pid":13424,"hostname":"Sky","msg":"Mapped {/file/:taskid/:filename, GET} route"}
+{"level":30,"time":1668031658053,"pid":13424,"hostname":"Sky","msg":"LogsController {/logs}:"}
+{"level":30,"time":1668031658053,"pid":13424,"hostname":"Sky","msg":"Mapped {/logs/error, GET} route"}
+{"level":30,"time":1668031658054,"pid":13424,"hostname":"Sky","msg":"Mapped {/logs/info, GET} route"}
+{"level":30,"time":1668031658060,"pid":13424,"hostname":"Sky","msg":"Nest application successfully started"}
