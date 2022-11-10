@@ -12,7 +12,7 @@ const LOCAL_URL = `postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_H
 export default {
   type: 'postgres',
   cache: false,
-  url: 'postgres://alex99like:g1cRAOO4cA0wrTmwLpnU093wchot9hot@dpg-cdm2fv82i3mrtiv6t2ug-a/management_n927',
+  url: 'postgres://alex99like:g1cRAOO4cA0wrTmwLpnU093wchot9hot@dpg-cdm2fv82i3mrtiv6t2ug-a.oregon-postgres.render.com/management_n927',
   synchronize: true,
   logging: false,
   ssl: {
