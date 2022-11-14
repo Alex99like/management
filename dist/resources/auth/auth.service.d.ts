@@ -6,5 +6,8 @@ export declare class AuthService {
     constructor(usersRepository: Repository<User>);
     signin(body: SigninUserDto): Promise<{
         token: string;
+        name: string;
+        id: string;
+        login: string;
     }>;
 }

@@ -5,7 +5,9 @@ export declare class UsersService {
     constructor(usersRepository: Repository<User>);
     getAll(): Promise<IUserNoId[]>;
     getById(id: UUIDType): Promise<IUserNoId>;
-    create(userDto: IUser): Promise<IUserNoId>;
+    create(userDto: IUser): Promise<IUserNoId & {
+        token: string;
+    }>;
     remove(id: UUIDType): Promise<void>;
     update(id: UUIDType, body: IUser): Promise<IUserNoId>;
 }

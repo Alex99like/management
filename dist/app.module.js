@@ -33,6 +33,8 @@ AppModule = __decorate([
             }),
             typeorm_1.TypeOrmModule.forRoot({
                 ...ormconfig_1.default,
+                autoLoadEntities: true,
+                synchronize: true,
                 entities: [`${__dirname}/resources/**/**.entity{.ts,.js}`],
                 migrations: [`${__dirname}/migrations/*.ts`],
             }),

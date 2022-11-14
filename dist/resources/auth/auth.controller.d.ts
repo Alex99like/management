@@ -8,6 +8,11 @@ export declare class AuthController {
     constructor(authService: AuthService, usersService: UsersService);
     signin(signinDto: SigninUserDto): Promise<{
         token: string;
+        name: string;
+        id: string;
+        login: string;
     }>;
-    signup(signupDto: CreateUserDto): Promise<import("../users/users.entity").IUserNoId>;
+    signup(signupDto: CreateUserDto): Promise<import("../users/users.entity").IUserNoId & {
+        token: string;
+    }>;
 }

@@ -21,6 +21,16 @@ import ormconfig from './ormconfig';
     }),
     TypeOrmModule.forRoot({
       ...ormconfig,
+      // type: 'postgres',
+      // host: 'localhost',
+      // port: 5432,
+      // username: 'postgres',
+      // password: 'alex990323',
+      // database: 'manajment',
+      // logging: false,
+      //* *****//
+      autoLoadEntities: true,
+      synchronize: true,
       entities: [`${__dirname}/resources/**/**.entity{.ts,.js}`],
       migrations: [`${__dirname}/migrations/*.ts`],
     }),

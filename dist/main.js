@@ -47,7 +47,7 @@ async function bootstrap() {
         .build();
     const document = swagger_1.SwaggerModule.createDocument(app, config);
     swagger_1.SwaggerModule.setup('/docs', app, document);
-    await app.listen(PORT, '0.0.0.0');
+    await app.listen(4200, '0.0.0.0');
     process.on('unhandledRejection', () => {
         logger.error({ msg: 'unhandledRejection event' });
         process.exit(1);

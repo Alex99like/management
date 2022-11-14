@@ -23,8 +23,10 @@ let AuthGuard = class AuthGuard {
             if (bearer !== 'Bearer' || !token) {
                 throw new common_1.UnauthorizedException();
             }
-            this.jwtService.verify(token);
-            return true;
+            const user = this.jwtService.decode(token);
+            if (user)
+                return true;
+            throw new common_1.UnauthorizedException();
         }
         catch (e) {
             throw new common_1.UnauthorizedException();

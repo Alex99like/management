@@ -2,7 +2,7 @@ import { Injectable, HttpException, HttpStatus } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 
 import { Repository } from 'typeorm';
-
+import jwt from 'jsonwebtoken'
 import { User, IUserNoId, IUser } from './users.entity';
 import { genHashPassword } from '../../helpers/genHashPassword';
 
@@ -23,12 +23,15 @@ export class UsersService {
     return user as IUserNoId;
   }
 
-  async create(userDto: IUser): Promise<IUserNoId> {
+  async create(userDto: IUser): Promise<IUserNoId & { token: string }> {
     try {
       const { name, login, password } = userDto;
       const hash = await genHashPassword(password);
       const modelUser = await this.usersRepository.create({ name, login, password: hash }).save();
-      return { id: modelUser.id, name: modelUser.name, login: modelUser.login };
+      
+      const token = jwt.sign({ userId: modelUser.id, login: modelUser.login }, process.env.JWT_SECRET_KEY as string);
+
+      return { id: modelUser.id, name: modelUser.name, login: modelUser.login, token };
     } catch (e) {
       throw new HttpException('User login already exists!', HttpStatus.CONFLICT);
     }
