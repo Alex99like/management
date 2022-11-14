@@ -1850,3 +1850,43 @@
 {"level":30,"time":1668436596631,"pid":576,"hostname":"Sky","msg":"Mapped {/logs/error, GET} route"}
 {"level":30,"time":1668436596632,"pid":576,"hostname":"Sky","msg":"Mapped {/logs/info, GET} route"}
 {"level":30,"time":1668436596644,"pid":576,"hostname":"Sky","msg":"Nest application successfully started"}
+{"level":30,"time":1668441392641,"pid":17192,"hostname":"Sky","msg":"AppController {/}:"}
+{"level":30,"time":1668441392645,"pid":17192,"hostname":"Sky","msg":"Mapped {/, GET} route"}
+{"level":30,"time":1668441392645,"pid":17192,"hostname":"Sky","msg":"UsersController {/users}:"}
+{"level":30,"time":1668441392646,"pid":17192,"hostname":"Sky","msg":"Mapped {/users, GET} route"}
+{"level":30,"time":1668441392648,"pid":17192,"hostname":"Sky","msg":"Mapped {/users/:id, GET} route"}
+{"level":30,"time":1668441392653,"pid":17192,"hostname":"Sky","msg":"Mapped {/users/:id, DELETE} route"}
+{"level":30,"time":1668441392654,"pid":17192,"hostname":"Sky","msg":"Mapped {/users/:id, PUT} route"}
+{"level":30,"time":1668441392655,"pid":17192,"hostname":"Sky","msg":"AuthController {/}:"}
+{"level":30,"time":1668441392656,"pid":17192,"hostname":"Sky","msg":"Mapped {/signin, POST} route"}
+{"level":30,"time":1668441392657,"pid":17192,"hostname":"Sky","msg":"Mapped {/signup, POST} route"}
+{"level":30,"time":1668441392657,"pid":17192,"hostname":"Sky","msg":"BoardsController {/boards}:"}
+{"level":30,"time":1668441392658,"pid":17192,"hostname":"Sky","msg":"Mapped {/boards, GET} route"}
+{"level":30,"time":1668441392660,"pid":17192,"hostname":"Sky","msg":"Mapped {/boards/:id, GET} route"}
+{"level":30,"time":1668441392661,"pid":17192,"hostname":"Sky","msg":"Mapped {/boards, POST} route"}
+{"level":30,"time":1668441392662,"pid":17192,"hostname":"Sky","msg":"Mapped {/boards/:id, DELETE} route"}
+{"level":30,"time":1668441392662,"pid":17192,"hostname":"Sky","msg":"Mapped {/boards/:id, PUT} route"}
+{"level":30,"time":1668441392662,"pid":17192,"hostname":"Sky","msg":"ColumnsController {/boards/:boardId/columns}:"}
+{"level":30,"time":1668441392663,"pid":17192,"hostname":"Sky","msg":"Mapped {/boards/:boardId/columns, GET} route"}
+{"level":30,"time":1668441392664,"pid":17192,"hostname":"Sky","msg":"Mapped {/boards/:boardId/columns/:columnId, GET} route"}
+{"level":30,"time":1668441392668,"pid":17192,"hostname":"Sky","msg":"Mapped {/boards/:boardId/columns, POST} route"}
+{"level":30,"time":1668441392669,"pid":17192,"hostname":"Sky","msg":"Mapped {/boards/:boardId/columns/:columnId, DELETE} route"}
+{"level":30,"time":1668441392670,"pid":17192,"hostname":"Sky","msg":"Mapped {/boards/:boardId/columns/:columnId, PUT} route"}
+{"level":30,"time":1668441392671,"pid":17192,"hostname":"Sky","msg":"TasksController {/boards/:boardId/columns/:columnId/tasks}:"}
+{"level":30,"time":1668441392671,"pid":17192,"hostname":"Sky","msg":"Mapped {/boards/:boardId/columns/:columnId/tasks, GET} route"}
+{"level":30,"time":1668441392672,"pid":17192,"hostname":"Sky","msg":"Mapped {/boards/:boardId/columns/:columnId/tasks/:taskId, GET} route"}
+{"level":30,"time":1668441392673,"pid":17192,"hostname":"Sky","msg":"Mapped {/boards/:boardId/columns/:columnId/tasks, POST} route"}
+{"level":30,"time":1668441392673,"pid":17192,"hostname":"Sky","msg":"Mapped {/boards/:boardId/columns/:columnId/tasks/:taskId, DELETE} route"}
+{"level":30,"time":1668441392674,"pid":17192,"hostname":"Sky","msg":"Mapped {/boards/:boardId/columns/:columnId/tasks/:taskId, PUT} route"}
+{"level":30,"time":1668441392674,"pid":17192,"hostname":"Sky","msg":"FileController {/}:"}
+{"level":30,"time":1668441392675,"pid":17192,"hostname":"Sky","msg":"Mapped {/file, POST} route"}
+{"level":30,"time":1668441392675,"pid":17192,"hostname":"Sky","msg":"Mapped {/file/:taskid/:filename, GET} route"}
+{"level":30,"time":1668441392675,"pid":17192,"hostname":"Sky","msg":"LogsController {/logs}:"}
+{"level":30,"time":1668441392676,"pid":17192,"hostname":"Sky","msg":"Mapped {/logs/error, GET} route"}
+{"level":30,"time":1668441392677,"pid":17192,"hostname":"Sky","msg":"Mapped {/logs/info, GET} route"}
+{"level":30,"time":1668441392680,"pid":17192,"hostname":"Sky","msg":"Nest application successfully started"}
+{"level":30,"time":1668441426159,"pid":17192,"hostname":"Sky","method":"GET","url":"/users","query":{},"body":null,"statusCode":200,"responseTime":"1858ms"}
+{"level":50,"time":1668441429790,"pid":17192,"hostname":"Sky","method":"GET","url":"/users/a5398212-38c4-4654-bd10-d89faa74d9f2","query":{},"body":null,"statusCode":401,"exception":"Unauthorized","classException":"UnauthorizedException","responseTime":"0ms"}
+{"level":50,"time":1668441432792,"pid":17192,"hostname":"Sky","method":"GET","url":"/users/a5398212-38c4-4654-bd10-d89faa74d9f2","query":{},"body":null,"statusCode":401,"exception":"Unauthorized","classException":"UnauthorizedException","responseTime":"0ms"}
+{"level":50,"time":1668441444981,"pid":17192,"hostname":"Sky","method":"GET","url":"/users/a5398212-38c4-4654-bd10-d89faa74d9f2","query":{},"body":null,"statusCode":404,"exception":"User was not founded!","classException":"HttpException","responseTime":"0ms"}
+{"level":30,"time":1668441449367,"pid":17192,"hostname":"Sky","method":"GET","url":"/users","query":{},"body":null,"statusCode":200,"responseTime":"212ms"}
